@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+<title>Welcome To Payroll Database</title>
+    
+</head>
+ <body style="background-color:#05386B;"><h1 style="color: #ffffff;">
+<h2 style="color: #ffffff;"><center><h1>PayRoll  Management System  </h2> 
+<h1>Kindly Enter Your Login Deatils</h1><h1 style="color: #ffffff;">
+<p><h2 style="color: #ffffff;">
+
+ <form action="/action_page.php">
+ <label for="Emp_id">   Employee Id:</label>
+  <input type="text" id="Emp_id" name="Emp_id"><br><br>
+ <label for="Password">Password:</label>
+  <input type="password" id="lname" name="lname"><br><br></p>
+  <input type="submit" value="Submit">
+  <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+</form>
+
+    <h1> Click the link below to see database content </h1>
+<li><p><a href="{{ url_for('.list_view') }}"> To view the DB Content </a></p></li>
+</body>
+
+</html>
+            
+            
+        
